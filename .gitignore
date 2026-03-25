@@ -1,6 +1,36 @@
-# Rust's output directory
-target
+# Rust / Soroban
+target/
+.soroban/
+.stellar/
+Cargo.lock
 
-# Local settings
-.soroban
-.stellar
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+.env
+.env.*
+!.env.example
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ide / OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Testing
+.nyc_output/
+coverage/
+contract-snapshots/
+test_snapshots/
